@@ -1,6 +1,119 @@
-/* HEADER */
+body {
+    background-color: gold;
+}
+
 
 /* SONY BAR */
 .logo_sony {
     max-width: 75px;
 }
+
+/* NAV BAR */
+.navbar a {
+    color: black !important;
+}
+  
+.navbar a:hover {
+    color: #0070D1 !important;
+}
+
+.navbar .dropdown-toggle::hover {
+  color: #0070D1 !important;
+}
+  
+.navbar .dropdown-toggle::after {
+    position: relative;
+    top: 3px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: bolder;
+    font-size: 0.7rem;
+    color: #999999;
+    content: "\f078";
+    border: 0;
+}
+ 
+.navbar a.show::after {
+    content: "\f077";
+}
+  
+.navbar .dropdown {
+    position: static;
+}
+  
+.navbar .dropdown-menu {
+    padding: 15px 0;
+    border: 0;
+    top: 74px;
+    width: 100%;
+}
+  
+.navbar .dropdown-menu li {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #0070D1;
+    
+}
+  
+.navbar .dropdown-menu a img {
+    display: block;
+    width: 70px;
+}
+  
+.navbar .dropdown-menu .ps6 a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+  
+.navbar .dropdown-menu .dropdown-divider {
+    display: block;
+    border-top: 1px solid #b9b9b9;
+}
+  
+.navbar .dropdown-menu .sub-link {
+    font-size: 1rem;
+    position: relative;
+}
+  
+.navbar .dropdown-menu .sub-link::before {
+    content: '\f111';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bolder;
+    font-size: 0.3rem;
+    display: inline;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+  
+.navbar .dropdown-menu .sub-link a:hover {
+    background-color: transparent;
+}
+  
+.navbar a.accedi {
+    display: block;
+    background-color: #3E3E3E;
+    border-radius: 50px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #363636;
+    width: fit-content;
+}
+  
+.navbar a.accedi:hover {
+    color: white;
+    opacity: 0.8;
+}
+  
+.navbar .fa-search {
+    margin: 0;
+    font-size: 1.5rem;
+}
+  
+.navbar .search { 
+    font-weight: 900;
+    font-size: 2rem;
+}
+  
+/* JUMBO */
