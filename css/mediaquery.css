@@ -1,7 +1,7 @@
 /* SM */
 @media all and (min-width: 576) {
     .card_wrapper {
-    margin: 0 28px;  
+    margin: 0 15px;  
     }
 }
 
@@ -9,7 +9,12 @@
 @media all and (min-width: 768px) {
     .card_wrapper {
         width: 80%;
-        margin: 0 35px;
+        margin: 0 25px;
+    }
+
+    .jumbo_thumb_wrapper {
+        max-width: 165px;
+        margin: 0 25px;
     }
 }
 
