@@ -1,0 +1,21 @@
+/* SM */
+@media all and (min-width: 576) {
+    .card_wrapper {
+    margin: 0 28px;  
+    }
+}
+
+/* MD */
+@media all and (min-width: 768px) {
+    .card_wrapper {
+        width: 80%;
+        margin: 0 35px;
+    }
+}
+
+/* LG */
+@media all and (min-width: 992px) {
+    .card_wrapper {
+        width: 33.33%;
+    }
+}

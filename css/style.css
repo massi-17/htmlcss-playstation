@@ -117,3 +117,50 @@ body {
 }
   
 /* JUMBO */
+#jumbo {
+    background-image:url('../img/jumbo-bg.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.col_returnal { 
+    min-height: 580px;  
+}
+
+.logo_returnal {
+    max-width: 205px;
+}
+
+/* WIDGET CARD */
+.card_wrapper {
+    width: 100%;
+    color: white;
+    margin: 0 10px;
+
+}
+
+.card_title {
+    font-weight: normal;
+}
+
+.card_description {
+    font-size: 12px;
+}
+
+.card_btn {
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+    background-color: #CD3D0F;
+    border: 1px solid transparent;
+}
+
+.card_btn:hover {
+    background-color: #0070D1;
+    color: white;
+}
+
+
+
+
