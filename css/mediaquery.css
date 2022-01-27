@@ -1,18 +1,18 @@
 /* SM */
 @media all and (min-width: 576) {
-    .card_wrapper {
+    #jumbo .card_wrapper {
     margin: 0 15px;  
     }
 }
 
 /* MD */
 @media all and (min-width: 768px) {
-    .card_wrapper {
+    #jumbo .card_wrapper {
         width: 80%;
         margin: 0 25px;
     }
 
-    .jumbo_thumb_wrapper {
+    #jumbo .jumbo_thumb_wrapper {
         max-width: 165px;
         margin: 0 25px;
     }
@@ -20,7 +20,12 @@
 
 /* LG */
 @media all and (min-width: 992px) {
-    .card_wrapper {
+#jumbo .card_wrapper {
         width: 33.33%;
+    }
+
+    #ps4 .card_wrapper {
+        color: black;
+        width: 50%;  
     }
 }

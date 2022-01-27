@@ -1,4 +1,6 @@
-
+body {
+    overflow-x: hidden;
+}
 
 /* SONY BAR */
 .logo_sony {
@@ -134,9 +136,15 @@
 }
 
 /* WIDGET CARD */
+#jumbo .card_wrapper {
+    
+    color: white;
+  
+}
+
 .card_wrapper {
     width: 100%;
-    color: white;
+    
     margin: 0 10px;
 }
 
@@ -180,3 +188,26 @@
     margin-top: -15px;
 }
   
+/* PS5 */
+#ps4 .card_wrapper_titolo {
+    color: black;
+   
+}
+
+.blue_ {
+    background-color: #0070D1 !important;
+}
+
+.blue_:hover {
+    background-color: #CD3D0F !important;
+}
+
+.up_title {
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0070D1;
+    margin-bottom: 0;
+}
