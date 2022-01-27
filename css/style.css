@@ -8,8 +8,8 @@ body {
 }
 
 /* NAV BAR */
-.navbar {
-    
+.col_nav {
+  padding: 0 !important;
   
 }
 .navbar a {
