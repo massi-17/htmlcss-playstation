@@ -378,3 +378,72 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* SOCIAL */
+#social img {
+    max-width: 100%;
+    transition: transform 0.5s ease;
+    width: 200px !important;
+
+
+}
+  
+#social a:hover img {
+    filter: blur(0.1px);
+    transform: scale(1.01); 
+}
+
+/* FOOTER */
+footer {
+    background-color: #00439C;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+  
+footer ul li {
+    margin: 15px 0;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+  
+footer img {
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+  
+footer a {
+    color: white;
+    text-decoration: none;
+}
+  
+footer a:hover {
+    color: #FFF;
+}
+  
+footer .lingua {
+    margin-top: 40px;
+    width: fit-content;
+   
+}
+  
+footer .lingua img {
+    width: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+  
+
+footer .logo_sony_footer {
+    max-width: 90px;
+    margin-bottom: 10px;
+}
+
+
+ 
+  

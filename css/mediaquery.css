@@ -41,6 +41,13 @@
 
     #sconti img {
         max-width: 200px;
+        
+    
+    
+    }
+
+    #social img {
+        max-width: 100px;
         transition: transform 0.5s ease;
         
     
@@ -66,4 +73,6 @@
         width: 33.33%;
         
     }
+
+    
 }
