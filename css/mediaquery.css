@@ -3,6 +3,15 @@
     #jumbo .card_wrapper {
     margin: 0 15px;  
     }
+
+    #it_takes_two .card_wrapper {
+        margin: 0 15px;  
+        }
+
+     .col_bg {
+         display: none;
+     }  
+    
 }
 
 /* MD */
@@ -16,6 +25,26 @@
         max-width: 165px;
         margin: 0 25px;
     }
+
+    #it_takes_two .card_wrapper {
+        width: 80%;
+        margin: 0 25px;
+    }
+
+    #ps_plus .card_wrapper {
+        width: 50%;
+    }
+
+    #sconti img {
+        max-width: 200px;
+        transition: transform 0.5s ease;
+        
+    
+    
+    }
+
+    
+
 }
 
 /* LG */
@@ -27,5 +56,10 @@
     #ps4 .card_wrapper {
         color: black;
         width: 50%;  
+    }
+
+    #it_takes_two .card_wrapper {
+        width: 33.33%;
+        
     }
 }

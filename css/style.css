@@ -131,7 +131,7 @@ body {
     min-height: 580px;  
 }
 
-.logo_returnal {
+.logo_giochi {
     max-width: 205px;
 }
 
@@ -170,6 +170,10 @@ body {
 }
 
 /* JUMBO THUMB */
+#thumb_jumbo {
+   
+}
+
 #thumb_jumbo a .active {
     border: 3px solid #0070D1;
     box-shadow: inset 0 0 0 2px #FFF;
@@ -181,11 +185,13 @@ body {
     border-radius: 20px;
     transition: margin-top 0.5s;
     margin-top: 0;
+    max-width: 165px;
 
 }
   
 #thumb_jumbo a:hover img {
     margin-top: -15px;
+
 }
   
 /* PS5 */
@@ -210,4 +216,165 @@ body {
     font-weight: bold;
     color: #0070D1;
     margin-bottom: 0;
+}
+
+/* PS5 THUMB */
+#thumb_PS5 a .active {
+    border-bottom: 3px solid #0070D1;
+    box-shadow: inset 0 0 0 2px #FFF;
+  
+} 
+  
+#thumb_PS5 a img {
+    max-width: 115px;        
+
+
+}
+  
+#thumb_PS5 a:hover img {
+    border-bottom: 3px solid #0070D1;
+}
+
+/* IT TAKES TWO */
+.row_jumbo {
+    background-image:url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+
+.col_ITT { 
+    min-height: 580px;  
+}
+
+/* IT TAKES TWO THUMB */
+#nuove_uscite {
+    background-color: #1F1F1F;
+}
+ 
+
+#nuove_uscite img {
+    max-width: 150px; 
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+    
+
+
+}
+  
+#nuove_uscite a:hover img {
+    filter: blur(0.1px);
+    transform: scale(1.01); 
+}
+
+#nuove_uscite .titolo {
+
+    margin-left: 35px;
+    
+}
+
+#nuove_uscite .subtitle {
+
+    margin-left: 35px;
+    
+    font-size: 20px;
+    
+}
+
+#nuove_uscite .titolo_giochi {
+    font-size: 12px;
+}
+
+/* PS4 */
+#PS4 .card_description {
+    text-align: center;
+}
+
+#PS4 .f_l {
+    text-align: center;
+    margin: 0;
+}
+
+#ps4 .img_device {
+    max-height: 170px;
+    padding: 0;
+}
+
+/* PSPLUS */
+#ps_plus .container-fluid {
+    background-color: #BEBCBB;
+    
+}
+
+#ps_plus .card_wrapper {
+    
+}
+
+#ps_plus .logo_plus {
+    max-width: 220px;
+    margin-bottom: 30px;
+}
+
+#ps_plus .card_btn {
+    background-color: #D9DADC;
+    color: #0070D1;
+}
+
+#ps_plus .card_btn:hover {
+    background-color: #0070D1;
+    color: #D9DADC;
+    
+}
+
+.col_bg {
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* SCONTI */
+
+
+#sconti img {
+    max-width: 100%;
+    transition: transform 0.5s ease;
+    
+
+
+}
+  
+#sconti a:hover img {
+    filter: blur(0.1px);
+    transform: scale(1.01); 
+}
+
+/* PS NOW */
+#ps_now .container-fluid {
+    background-color: #BEBCBB;
+    
+}
+
+#ps_now .logo_plus {
+    max-width: 220px;
+    margin-bottom: 30px;
+}
+
+#ps_now .card_btn {
+    background-color: #D9DADC;
+    color: #0070D1;
+}
+
+#ps_now .card_btn:hover {
+    background-color: #0070D1;
+    color: #D9DADC;
+    
+}
+
+.col_bg {
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
