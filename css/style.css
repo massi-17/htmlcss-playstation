@@ -352,7 +352,7 @@ body {
 
 /* PS NOW */
 #ps_now .container-fluid {
-    background-color: #BEBCBB;
+    background-color: #161C3B;
     
 }
 
@@ -363,7 +363,7 @@ body {
 
 #ps_now .card_btn {
     background-color: #D9DADC;
-    color: #0070D1;
+    color: black;
 }
 
 #ps_now .card_btn:hover {
@@ -372,9 +372,9 @@ body {
     
 }
 
-.col_bg {
-    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
-    background-position: right;
+#ps_now .col_bg {
+    background-image: url('../img/ps-now-april-featured-image-block.png');
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }

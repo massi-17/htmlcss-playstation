@@ -11,6 +11,10 @@
      .col_bg {
          display: none;
      }  
+
+    #ps_now .col_bg {
+        display: none;
+    }
     
 }
 
